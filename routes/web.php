@@ -5,7 +5,7 @@ use App\Http\Controllers\WeatherController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/login');
 });
 
 // Route Dashboard: Menampilkan pencarian cuaca dan daftar riwayat favorit
